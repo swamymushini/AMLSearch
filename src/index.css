@@ -5,9 +5,134 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0 40px 50px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 24px;
+}
+.tabs, .checkbox-wrapper, .row {
+  display: flex;
+}
+.tab {
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #E5E5E5;
+  width: 226px;
+  height: 45px;
+  font-weight: 500;
+  font-size: 22px;
+  display: flex;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+}
+.heading, h5, .input-label {
+  text-align: left;
+}
+h5 {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+.checkbox-wrapper {
+  height: 30px;
+  margin-bottom: 24px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+}
+.input-label {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+.search-button {
+  width: 145px;
+  height: 45px;
+  background: #0094FF;
+  font-weight: 500;
+  font-size: 26px;
+  color: #fff;
+  border: none;
+  margin-top: 60px;
+}
+.search-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-container {
+  width: 1108px;
+  height: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  padding: 40px;
+  margin:  0 auto;
+}
+.input-box-container {
+  width: 450px;
+}
+.input-box-container:nth-of-type(2) {
+  margin-left: 100px;
+}
+.row:nth-of-type(2) {
+  margin-top: 30px;
+}
+input[type="text"] {
+  width: 446.4px;
+  height: 30px;
+  background: #F7F7F7;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  padding-left: 10px;
+  margin-top: 5px;
+  border: none;
+}
+.individual, .legal {
+  text-align: left;
+  width: 450px;
+}
+.legal {
+  margin-left: 90px;
+}
+.search-form {
+  height: 150px;
+}
+label {
+  margin-left: 6px;
+}
+table {
+  min-width: 1300px !important;
+}
+tr td {
+  width: 210px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+}
+td.source {
+  width: 350px;
+}
+tbody{
+  position: relative;
+  top: 20px;
+}
+tbody tr {
+  background: #FFFFFF;
+  min-height: 65px;
+  height: 65px;
+}
+thead td {
+  font-weight: 300;
 }
